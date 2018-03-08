@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+</head>
+<body>
+<h2>Formulário de cadastro</h2>
+<form action="/cadastrar.html" method=GET targht=" _bank">
+    Nome:<br>
+    <input type="text" name="nome">
+    <br>
+    E-mail:<br>
+    <input type="email" name="e-mail">
+    <br>
+    Idade:<br>
+    <input type="number" min = "18" name="idade " >
+    <br>
+    senha:<br>
+    <input type="password " name = "senha" minlength="6">
+    <br>
+    Sexo:<br>
+    <input type="radio" name="sexo" value="male" checked> Male<br>
+    <input type="radio" name="sexo" value="female" checked> Female<br>
+    Observação:<br>
+    <textarea name="observação" value="observação"></textarea>
+    <br>
+    País:<br>
+    <imput type="text" value="Brasil" desable>
+        <br>
+    Estado:<br>
+        <select>
+            <option value="CE">CE</option>
+            <option value="PI">PI</option>
+            <option value="MA">MA</option>
+            <option value="BH">BH</option>
+        </select>
+        <br>
+        Permissão:<br>
+        <input type="checkbox" name="permissão" value="admin">Admin<br>
+        <input type="checkbox" name="permissão" value="user">User<br>
+        <input type="checkbox" name="permissão" value="guest" checked>Guest<br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        Cor Preferida:<br>
+        <input type="color" name="corpreferida"/><br>
+        <input type="hidden" name="codigo" value=“127">
+        <br>
+
+
+        Data:<br>
+        <input type="date" name="aniv"/>
+        <br>
+
+        <br><input type="submit" value="Salvar">
+        <br>
+
+</form>
+</body>
+</html>
