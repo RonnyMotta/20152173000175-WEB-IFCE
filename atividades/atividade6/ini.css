@@ -1,0 +1,104 @@
+body{
+    background-color:#7dc6dd ;
+}
+#topo{
+    background:#7dc6dd ;
+    width: 945px;
+    height:165px ;
+    margin: 0 auto;
+}
+#logo {
+    background: #999;
+    width: 310px;
+    height: 80px;
+    margin-top: 50px;
+    float: left;
+}
+#SGE {
+
+    width: 180px;
+    height: 70px;
+    margin-top: 50px;
+    float: right;
+    text-align: center;
+}
+
+#SGE P{
+    font-family: Verdana;
+    font-size: 12px;
+}
+#menu{
+    background:#373737 ;
+    width: 945px;
+    height:45px ;
+    margin: 0 auto;
+}
+#menu a{
+    color:blue;
+    font-family: verdana;
+    font-size: 14px;
+    text-decoration:none ;
+    margin-top: 15px;
+    margin-left: 50px;
+    display:block;
+    float:left;
+}
+#menu a:hover{
+    color:#00c3c3;
+    cursor: pointer;
+}
+#banner{
+    background:#7dc6dd ;
+    width: 945px;
+    height:327px ;
+    margin: 0 auto;
+}
+#container{
+    background:#7dc6dc;
+    width: 945px;
+    height: 400px;
+    margin: 0 auto;
+}
+.chamada{
+    background:#ccc;
+    width: 245px;
+    height: 340px;
+    float:right;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px
+
+}
+#imag{
+    position: absolute;
+    float: right;
+    margin-left: 215px;
+}
+.submenu {
+    text-decoration: none;
+    background-color: #373737;
+    color: blue;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: 0px;
+    width: 100px;
+    height: 20px;
+    margin-top: 3pt;
+    border-radius: 2px;
+}
+#menu2 :hover {
+    color: #00c3c3;
+    cursor: pointer;
+}
+
+.footer {
+
+    width: 945px;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+
+}
+
+
