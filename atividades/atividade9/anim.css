@@ -1,0 +1,20 @@
+﻿
+
+#animes{
+	width: 15em;
+	height: 10em;
+	background-color: blueviolet;
+	box-shadow: 1em 1em 0.5em #00000066;
+	margin-top: 5em;
+	transform: rotate(-10deg);
+	animation-name: cor;
+	animation-duration: 4s;
+	
+}
+
+@keyframes cor{
+
+	from{background-color: red;}
+	to{backgroundcolor: grey;}
+	
+}

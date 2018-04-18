@@ -1,0 +1,9 @@
+
+
+#boxshadow{
+	width: 20em;
+	height: 15em;
+	background-color: ghostwhite;
+	box-shadow: 1em 1em 0.5em #00000066;
+
+}

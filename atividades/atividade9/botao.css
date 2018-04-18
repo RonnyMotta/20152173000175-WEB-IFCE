@@ -1,0 +1,11 @@
+﻿
+
+#botao{
+	width: 20em;
+	height: 4em;
+	background: linear-gradient(ghostwhite, grey);
+	border-radius: 2em;
+	margin-top: 5em;
+	outline:none;
+	border: none;
+}

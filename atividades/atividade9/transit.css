@@ -1,0 +1,13 @@
+﻿
+#transl{
+	width: 20em;
+	height: 10em;
+	background-color: greenyellow;
+	box-shadow: 1em 1em 0.5em #00000066;
+	margin-top: 5em;
+
+	-webkit-transition: width 2s;
+	-ms-transform: skewY(20deg); /* IE 9 */
+	-webkit-transform: skewY(20deg); /* Safari */
+	transform: skewY(20deg);
+}
